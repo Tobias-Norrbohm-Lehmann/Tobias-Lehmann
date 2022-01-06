@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tobias Lehmann's Logbog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"></link>
+    </head>
+    <body>
+        <!-- Navigation bar HTML -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Name</a>
+            <a href="informatik.html" class="active">INF</a>
+            <a href="matematik.html">MAT</a>
+            <a href="dansk.html">DAN</a>
+            <a href="engelsk.html">ENG</a>
+            <a href="dotdotdot.html">...</a>
+            <a href="so.html">SO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- Accordion HTML -->
+        <div class="content" id="informatik">
+            <div class="element left">
+                <h2>Informatik Noter</h2>
+                <button class="accordion">Html Noter</button>
+                <div class="panel">
+                <p>HyperText Markup Language er et opmærkningssprog, der primært har til formål at få tekst og billeder på en hjemmeside til at virke som links til andre HTML-sider. Markup betyder at opmærke, og HTML bruges til at strukturere hjemmesider og bestemme udseendet.</p>
+
+                <button class="accordion">CSS noter</button>
+                <div class="panel">
+                <p>Cascading Style Sheets er et computersprog, der bruges til at beskrive, hvordan man ønsker indholdet af et HTML/XHTML/XML-dokument præsenteret, f.eks. i en browser. I HTML kan man indlejre CSS-koden i et style-element eller have det i filer for sig ved henvisning via et link-element. </p>
+                </div>
+
+                <button class="accordion">Javascript noter</button>
+                <div class="panel">
+                <p>JavaScript er et dynamisk programmeringssprog. Det er mest almindeligt anvendt som en del af webbrowsere, hvis implementeringer tillader klientside scripts at kommunikere med brugeren, kontrollere browseren, kommunikere asynkront, og ændre indholdet af HTML dokumenter.</p>
+                </div>
+            </div>
+            
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
